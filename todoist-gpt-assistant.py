@@ -85,7 +85,7 @@ def main(interactive, update_all, due_today):
         if update_all:
             tasks = api.get_tasks()
             if due_today:
-                tasks = [task for task in tasks if task.due and datetime.datetime.strptime(task.due.date, '%Y-%m-%d').date() <= datetime.date.today() and "every" not in task.due.string.lower()]
+                tasks = [task for task in tasks if task.due and datetime.datetime.strptime(task.due.date, '%Y-%m-%d').date() <= datetime.date.today()]
             tasks_to_update = [task for task in tasks if "SUGGESTION" not in task.description.upper()]
         else:
             tasks_to_update = get_seven_most_recent_tasks(api, offset)
