@@ -58,6 +58,10 @@ python todoist_gpt_assistant.py -d
 -d, --due-today: Only update tasks that are overdue or due today
 
 ### Example output
+<img width="1184" alt="image" src="https://user-images.githubusercontent.com/3598417/233871374-ff9a2aa7-d63a-48df-b809-4098fb20b04e.png">
+
+
+### Example text output
 
 TASK: Post todoist gpt assistant python script to Github and write a readme
 
