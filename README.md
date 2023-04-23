@@ -61,7 +61,7 @@ python todoist_gpt_assistant.py -d
 
 TASK: Post todoist gpt assistant python script to Github and write a readme
 
-SUGGESTION: To post the Todoist GPT Assistant Python script to GitHub and write a readme, follow these steps:
+GPT-3.5-turbo SUGGESTION: To post the Todoist GPT Assistant Python script to GitHub and write a readme, follow these steps:
 
 Create a GitHub account and repository.
 Install Git on your computer.
@@ -76,11 +76,11 @@ Commit and push your changes to the repository with the commands "git add README
 
 TASK: Buy groceries
 
-SUGGESTION: Create a shopping list with all the items you need organized by category. Visit a nearby grocery store during off-peak hours to avoid crowds. Stick to your list and use a shopping cart or basket to carry your items. Check expiration dates and choose fresh produce. Pay at the cashier and bring reusable bags for an eco-friendly shopping experience.
+GPT-3.5-turbo SUGGESTION: Create a shopping list with all the items you need organized by category. Visit a nearby grocery store during off-peak hours to avoid crowds. Stick to your list and use a shopping cart or basket to carry your items. Check expiration dates and choose fresh produce. Pay at the cashier and bring reusable bags for an eco-friendly shopping experience.
 
 TASK: Finish the presentation.
 
-SUGGESTION: Break the task into smaller steps: 1) Outline the presentation, including key points and supporting arguments. 2) Gather relevant data and visuals to support your arguments. 3) Create slides with a consistent design, using bullet points
+GPT-3.5-turbo SUGGESTION: Break the task into smaller steps: 1) Outline the presentation, including key points and supporting arguments. 2) Gather relevant data and visuals to support your arguments. 3) Create slides with a consistent design, using bullet points
 
 ## Contributing
 
