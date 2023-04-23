@@ -49,12 +49,16 @@ You can also pass the following command-line arguments:
 
 ```
 python todoist_gpt_assistant.py -u
+
 python todoist_gpt_assistant.py -i
+
 python todoist_gpt_assistant.py -d
 ```
 
 -u, --update-all: Update all task descriptions that haven't been updated yet
+
 -i, --interactive: Enable interactive mode
+
 -d, --due-today: Only update tasks that are overdue or due today
 
 ### Example output
