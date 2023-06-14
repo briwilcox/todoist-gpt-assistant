@@ -2,14 +2,19 @@
 
 An AI assistant for your Todoist tasks.
 
-Todoist GPT Assistant is a Python script designed to provide you with AI-generated suggestions to help you complete your to-do list. This script connects to your Todoist account, retrieves your most recent tasks, and uses OpenAI's GPT-3.5-turbo to generate step-by-step instructions on how to accomplish them. Please note that this script may update the descriptions of your tasks with these suggestions. However, it will try to preserve any existing user-generated content and will skip tasks that already have a GPT-generated description. It's recommended to use this feature with caution to avoid any unexpected changes to your task descriptions. With Todoist GPT Assistant, you can easily stay on top of your to-do list and streamline your productivity.
+Todoist GPT Assistant is a Python script designed to provide you with AI-generated suggestions to help you complete your to-do list. This script connects to your Todoist account, retrieves your most recent tasks, and uses OpenAI's advanced models (including GPT-4 and GPT-3.5-turbo) to generate step-by-step instructions on how to accomplish them. Please note that this script may update the descriptions of your tasks with these suggestions. It can also be configured to update tasks that are due today, overdue tasks, or tasks that don't have a GPT-generated description yet. It's recommended to use this feature with caution to avoid any unexpected changes to your task descriptions. With Todoist GPT Assistant, you can easily stay on top of your to-do list and streamline your productivity.
 
 ## Features
 
-Connects to your Todoist account and retrieves your seven most recent tasks due today or earlier
-Uses OpenAI's GPT-3.5-turbo to analyze tasks and generate actionable suggestions
-Presents suggestions in a clear, easy-to-follow format
-Optionally sends task suggestions via text message using the Twilio API
+- Connects to your Todoist account and retrieves your seven most recent tasks due today or earlier that do not have a GPT-generated description yet.
+- Uses OpenAI's advanced models (including GPT-4 and GPT-3.5-turbo) to analyze tasks and generate actionable suggestions. Options are included to select the model, token budget, and temperature to customize the suggestions.
+- Presents suggestions in a clear, easy-to-follow format.
+- Updates tasks descriptions with the generated suggestions for future reference.
+
+## Installation
+
+Clone this repository or download the source code.
+Install the required dependencies using pip:
 
 ## Installation
 
@@ -17,7 +22,7 @@ Clone this repository or download the source code.
 Install the required dependencies using pip:
 
 ```
-pip install openai configparser todoist_api_python twilio colorama argparse tqdm
+pip install openai configparser todoist_api_python colorama argparse tqdm
 ```
 
 Set up a todoist-config.ini file in the project directory with the following structure:
@@ -28,12 +33,6 @@ api_key = YOUR_TODOIST_API_KEY
 
 [openai]
 api_key = YOUR_OPENAI_API_KEY
-
-[twilio]
-account_sid = YOUR_TWILIO_ACCOUNT_SID
-auth_token = YOUR_TWILIO_AUTH_TOKEN
-phone_number = YOUR_TWILIO_PHONE_NUMBER
-recipient_phone_number = RECIPIENT_PHONE_NUMBER
 ```
 
 Replace the placeholders with your respective API keys and Twilio information.
