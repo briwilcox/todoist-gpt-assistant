@@ -16,11 +16,6 @@ Todoist GPT Assistant is a Python script designed to provide you with AI-generat
 Clone this repository or download the source code.
 Install the required dependencies using pip:
 
-## Installation
-
-Clone this repository or download the source code.
-Install the required dependencies using pip:
-
 ```
 pip install openai configparser todoist_api_python colorama argparse tqdm
 ```
