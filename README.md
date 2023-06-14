@@ -35,7 +35,7 @@ api_key = YOUR_TODOIST_API_KEY
 api_key = YOUR_OPENAI_API_KEY
 ```
 
-Replace the placeholders with your respective API keys and Twilio information.
+Replace the placeholders with your respective API keys.
 
 ## Usage
 Run the script by executing:
