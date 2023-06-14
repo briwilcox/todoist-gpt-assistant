@@ -93,6 +93,10 @@ GPT-3.5-turbo SUGGESTION: Break the task into smaller steps: 1) Outline the pres
 
 If you'd like to contribute to the project or have any suggestions, feel free to create a pull request or open an issue. All contributions are welcome!
 
+## Important Notes
+
+This tool has no affiliation with Todoist the company and is a hobby project. 
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
