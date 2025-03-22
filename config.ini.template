@@ -1,0 +1,13 @@
+[todoist]
+api_key = YOUR_TODOIST_API_KEY_HERE
+
+[openai]
+api_key = YOUR_OPENAI_API_KEY_HERE
+preferred_model = gpt-4o-mini
+
+[project_models]
+# Specify models for specific projects using project_id = model_name
+# Example:
+# 2023456789 = o1
+# 2023456790 = gpt-4o
+# The default model from [openai] section will be used for unlisted projects 
