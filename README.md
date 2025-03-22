@@ -8,6 +8,15 @@ Currently powered by state-of-the-art language models, the assistant adapts its 
 
 Whether you're tackling complex projects that need detailed breakdowns or simple tasks requiring quick guidance, Todoist LLM Assistant helps you turn overwhelming to-do lists into achievable action plans.
 
+## Important Notes
+
+**⚠️ Important:** This tool will modify your Todoist tasks by adding AI-generated suggestions to task descriptions. Please ensure you understand how the tool works before running it on your account.
+
+**💰 Note:** Using this tool will incur costs from your LLM provider (e.g., OpenAI). You will be charged based on your API usage according to the provider's pricing structure.
+
+**Disclaimer:** This project is not affiliated with, endorsed by, or connected to Todoist or Doist Inc. in any way. This is an independent, community-driven project.
+
+
 ## Features
 
 - Automatically generates actionable suggestions for your Todoist tasks
